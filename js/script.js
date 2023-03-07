@@ -14,8 +14,8 @@ $(document).ready(function () {
       settings: {
         slidesToShow: 1,
         slidesToScroll:1,
-        centerMode: true, // включить центрирование
-        centerPadding: '20px' // добавить отступы по краям 
+        // centerMode: true, // включить центрирование
+        // centerPadding: '20px' // добавить отступы по краям 
         }
       }
     ]

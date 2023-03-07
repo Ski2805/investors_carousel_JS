@@ -1,8 +1,9 @@
 .wrapper__carousel-investors {
-  width: 800px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
 
 }
 
@@ -38,90 +39,60 @@
 .picture__next-button {
   width: 30px;
   height: 30px;
-  background-image: none;
   background-color: transparent;
-  border: none;
-  border-radius: 50%;
+  border:none;
+ 
+
+  
+
 }
 
 .button {
   position: absolute;
-  bottom: 60%;
+  top: 50%;
   z-index: 200;
-  cursor: pointer;
   transform: translateY(-50%);
 }
 
 .sliderNext {
-  right: 0.5%;
+  right: 2%;
 }
 
 .sliderPrev {
-  left: 0.5%;
+  left: 2%;
 }
 
 .slick-slide {
   margin: 0 20px;
 }
 
-@media (min-width: 320px) {
-  .container__carousel-investors {
-  display: grid;
-  grid-template-columns: 400px;
-  grid-column-gap: 30px;
-  padding-right: 40px;
-  padding-left: 40px;
-  margin-top: 50px;
-  justify-content: center;
-  font-family: 'Ubuntu', sans-serif;
-  }
+@media (min-width: 150.4px) {
+
   .wrapper__carousel-investors {
-    width: 500px;
-    height: 400px;
-    position: relative;
+    width: 100%;
+    height: auto;
     overflow: hidden;
-  }
-
-  .sliderNext {
-    right: 13%;
-  }
-  
-  .sliderPrev {
-    left: 13%;
-  }
-
-  .button {
-    bottom: 40%;
+    margin: 0;
+    padding: 5px;
   }
 }
 
-@media (min-width: 768px) {
-  .container__carousel-investors {
-  display: grid;
-  grid-template-columns: 400px 400px;
-  grid-column-gap: 30px;
-  padding-right: 40px;
-  padding-left: 40px;
-  margin-top: 50px;
-  justify-content: center;
-  font-family: 'Ubuntu', sans-serif;
-  }
-  .wrapper__carousel-investors {
-    width: 1200px;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
-  }
+  
 
+@media (min-width: 768px) {
+
+  .wrapper__carousel-investors {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 5px;
+  }
   .sliderNext {
-    right: 13%;
+    right: 2%;
   }
   
   .sliderPrev {
-    left: 13%;
-  }
-
-  .button {
-    bottom: 40%;
+    left: 2%;
   }
 }
